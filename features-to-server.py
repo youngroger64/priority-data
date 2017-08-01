@@ -21,7 +21,7 @@ prediction = s.recv(1024)
 pred = prediction[0]
 
 print  (pred)
-
+print('bye')
 s.close()
 
 ##NOTE --ENCASE INCOMING DATA WITH ([ ])  WHEN USING COMMAND LINE ARG
