@@ -14,6 +14,8 @@ s.listen(1)
 
 
 conn, addr = s.accept()
+
+##while loop
 data = conn.recv(1024)
 data = pickle.loads(data)
 for i in data:
